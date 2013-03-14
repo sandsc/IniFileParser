@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IniFileProvider", "IniFileProvider.csproj", "{156248E8-C411-4D00-9B7D-EDC4602D6E47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestD131", "..\..\LibTest\TestD131.csproj", "{01FA2E6C-45A7-4BD3-B414-A82C995F3243}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{156248E8-C411-4D00-9B7D-EDC4602D6E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156248E8-C411-4D00-9B7D-EDC4602D6E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156248E8-C411-4D00-9B7D-EDC4602D6E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156248E8-C411-4D00-9B7D-EDC4602D6E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01FA2E6C-45A7-4BD3-B414-A82C995F3243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01FA2E6C-45A7-4BD3-B414-A82C995F3243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01FA2E6C-45A7-4BD3-B414-A82C995F3243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01FA2E6C-45A7-4BD3-B414-A82C995F3243}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
