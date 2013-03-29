@@ -22,6 +22,8 @@ namespace SandLib.Util
         private string _key;
         private string _value;
 
+        public readonly static KVEntry EmptyEntry = new KVEntry(string.Empty, string.Empty);
+
         public KVEntry(string key, string value)
             : base(EntryType.KeyValue)
         {

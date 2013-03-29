@@ -63,7 +63,8 @@ namespace SandLib.Util
         {
             KVEntry kv = null;
             _kvs.TryGetValue(key, out kv);
-            return kv;
+            //return an empty entry avoiding null reference exception.
+            return kv ?? KVEntry.EmptyEntry;
         }
         /// <summary>
         /// build entry lines 
